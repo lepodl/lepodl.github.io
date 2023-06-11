@@ -51,12 +51,12 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # Github: https://github.com/fomalhaut1998 || icon-github || faa-tada
-  微信: /assets/QRCode.jpg || icon-weixin || faa-tada
-  QQ: https://res.abeim.cn/api/qq/?qq=1174008660 || icon-QQ || faa-tada
-  B站: https://space.bilibili.com/220757832 || icon-bilibili || faa-tada
-  QQ邮箱: mailto:1174008660@qq.com || icon-youxiang || faa-tada
-  力扣: https://leetcode.cn/u/fomalhaut1998 || icon-leetcode || faa-tada
+  Github: https://github.com/lepodl || icon-github || faa-tada
+  微信: /_fig/wechat.jpg || icon-weixin || faa-tada
+#  QQ: https://res.abeim.cn/api/qq/?qq=1174008660 || icon-QQ || faa-tada
+#  B站: https://space.bilibili.com/220757832 || icon-bilibili || faa-tada
+  邮箱: mailto:luckyzlb15@163.com || icon-youxiang || faa-tada
+#  力扣: https://leetcode.cn/u/fomalhaut1998 || icon-leetcode || faa-tada
   # 微博: https://weibo.com/u/6473136435 || icon-weibo || faa-tada
   # 知乎: https://www.zhihu.com/people/liang-jia-chao-19 || icon-shejiaotubiao-10 || faa-tada
   # RSS: /atom.xml || icon-RSS || faa-tada
@@ -113,7 +113,7 @@ favicon:
 
 # Avatar (頭像)
 avatar:
-  img: https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp
+  img: https://picsum.photos/id/27/338/200.webp
   effect: false
 
 # Disable all banner image
@@ -156,7 +156,9 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://source.fomal.cc/img/default_cover_14.webp
+    - https://picsum.photos/id/60/1920/1200.webp
+    - https://picsum.photos/id/103/2592/1936.webp
+    - https://picsum.photos/id/101/2621/1747.webp
     # ...
 
 # A simple 404 page
@@ -221,7 +223,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   coinAudio: https://npm.elemecdn.com/akilar-candyassets@1.0.36/audio/aowu.m4a
   QR_code:
     - img: https://tuchuang.voooe.cn/images/2023/01/04/2.webp
@@ -702,10 +704,10 @@ aside:
       enable: true
       icon: # fab fa-github
       text: 前往小窝
-      link: https://github.com/fomalhaut1998
+      link: https://leopold.top
   card_announcement:
     enable: true
-    content: <center><b>--- 主域名 ---<br><a href="https://www.fomal.cc" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">fomal.cc</font></a>&nbsp;|&nbsp;<a href="https://www.fomal.cn" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">fomal.cn</font></a><br>--- 备用域名 ---<br><a href="https://netlify.fomal.cc" title="此线路部署于Netlify" class="anno_content"><font color="#5ea6e5">netlify.fomal.cc</font></a><br><a href="https://cloudflare.fomal.cc" title="此线路部署于Cloudflare" class="anno_content"><font color="#5ea6e5">cloudflare.fomal.cc</font></a><br>--- 网站安卓APP ---<br>🍧<a href="https://lskypro.acozycotage.net/Fomalhaut/Fomalhaut.apk" title="点这里可以下载网站的安卓APP" class="anno_content"><font color="#5ea6e5">点此下载</font></a>🍧</b></center>
+    content: <center><b>--- 主域名 ---<br><a href="https://leopold.top" title="主页" class="anno_content"><font color="#5ea6e5">leopold.top</font></a><br>
   card_recent_post:
     enable: false
     limit: 3 # if set 0 will show all
@@ -750,7 +752,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: false
-  publish_date: 8/9/2022 00:00:00
+  publish_date: 6/10/2023 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -767,7 +769,7 @@ newest_comments:
 translate:
   enable: false
   # The text of a button
-  default: 繁
+  default: 简
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay
